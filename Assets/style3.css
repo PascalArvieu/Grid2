@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: 100px 1fr 100px ;
+    grid-template-areas: 
+    "h h h h h h h h" 
+    "m p p p p r r r"
+    "m f f f f f f f";
+    background-color: rgb(255, 0, 0);
+    grid-gap: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+
+.h{
+    grid-area: h;
+    background-color: rgb(196, 148, 172);
+    
+}
+
+.m{
+    grid-area: m;
+    background-color: rgb(196, 148, 172);
+}
+
+.p{
+    grid-area: p;
+    background-color: rgb(196, 148, 172);
+}
+
+.r{ 
+    grid-area: r;
+    background-color: rgb(196, 148, 172);
+}
+
+.f{
+    grid-area: f;
+    background-color: rgb(196, 148, 172);
+}
